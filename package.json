@@ -1,0 +1,27 @@
+{
+  "name": "avalanche-js-staking",
+  "version": "0.2.0",
+  "description": "staking transaction package for avalanche",
+  "main": "dist/index.js",
+  "node": "dist/index.js",
+  "browser": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "jsnext:main": "dist/index.esm.js",
+  "typings": "dist/index.d.ts",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "avalanche-js-crypto": "git://github.com/oavax/avalanche-js-crypto.git",
+    "avalanche-js-network": "git://github.com/oavax/avalanche-js-network.git",
+    "avalanche-js-transaction": "git://github.com/oavax/avalanche-js-transaction.git",
+    "avalanche-js-utils": "git://github.com/oavax/avalanche-js-utils.git",
+    "text-encoding": "^0.7.0"
+  }
+}
